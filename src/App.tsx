@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState } from "react";
-import Example from "./assets/com/Example";
+import Example from "./com/Example";
 
 function App() {
   // const add = (num1: number, num2: number): number => {
@@ -26,23 +26,8 @@ function App() {
   //   return [str1, str2, str3, num1, num2];
   // }
   // console.log(addAll("hello", "world", "hello", 1, 2));
-  const [names, setName] = useState("");
 
-  // type Condernate = {
-  //   names: string;
-  //   greet: string;
-  // };
-  // const condrinate = (obj: Condernate) => {
-  //   return `${obj.names}, ${obj.greet}`;
-  // };
-  // console.log(condrinate({ names: "hello", greet: "world" }));
-
-  return (
-    <>
-      <h1>{names}</h1>
-      <Example setname={setName} names={names} />
-    </>
-  );
+  return <></>;
 }
 
 export default App;
